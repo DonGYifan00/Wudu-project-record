@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>guanliyuan</title>
+    <link rel='stylesheet' href='/stylesheets/guanliyuan.css' />
+</head>
+<body>
+    <nav></nav>
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li>
+                    <a onclick="showYonghu()">用户列表</a>
+                </li>
+                <li>
+                    <a>管理员列表</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <table  class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            用户名1
+                        </th>
+                        <th>
+                            账号    
+                        </th>
+                        <th>
+                            密码
+                        </th>
+                        <th>
+                            操作
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="result">
+                </tbody> 
+                <% for(var i = 0; i < chapterList.length; i++){ %>
+                    <tr>
+                        <td>number</td>
+                        <td><%= chapterList[i].title %></td>
+                        <td><%= chapterList[i].views %></td>
+                        <td>howDo</td>
+                    </tr>
+                <% } %>
+            </table>
+        </div>
+    </div> 
+</body>
+<script>
+   function showYonghu(){
+       window.location = "/yonghu";
+   }
+</script>
+</html>
