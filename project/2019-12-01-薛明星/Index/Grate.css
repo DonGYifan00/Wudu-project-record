@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.div1{
+    width: 100%;
+}
+.div1 button{
+    background-color: white;
+    border:none;
+    float: left;
+    margin-right: 5px;
+    width:10%;
+    height: 30px;
+}
+.div1 button:hover{
+    background-color:rgba(219, 200, 200, 0.541);
+}
+.div2{
+    width:100%;
+    height: 30px;
+}
+.div2 button{
+    background-color:rgba(219, 200, 200, 0.541);
+    border:none;
+    width: 100%;
+    height: 100%;
+}
+.div3{
+    background-color: red;
+}
+.div4{
+    width: 100%;
+}
+.p1{
+    float: left;
+    color:red;
+}
