@@ -1,0 +1,80 @@
+/* 在CSS文件中引入antd的css文件 */
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style:none;
+}
+body{
+    background-color: greenyellow;
+}
+.top{
+    height:32px;
+    width:100%;
+    margin-top:5px;
+    text-align: center;
+}
+.top :first-child{
+    width:80%;
+    height:30px;
+    background-color: white;
+    border:gainsboro solid 1px;
+    float: left;
+
+}
+.top :last-child{
+    width:20%;
+    height:30px;
+    background-color: white;
+    border:gainsboro solid 1px;
+    float: left;
+}
+.bk{
+    height:260px;
+    width:100%;
+}
+.bk div{
+    float: left;
+}
+.bk img{
+    height:200px;
+    width:140px;
+    margin-top:30px;
+    margin-left: 10px;
+}
+.bk p{
+    margin-top:30px;
+    margin-left: 20px;
+}
+.bk input{
+    width:60px;
+    height:40px;
+    background-color: white;
+    border:gainsboro solid 1px;
+    float: left;
+    margin-top:50px;
+    margin-left:10px;
+    border-radius:5px;
+}
+.jianjie {
+    width:100%;
+}
+.jianjie li{
+    width:100%;
+    height:200px;
+    padding-top:10px;
+}
+.jianjie div{
+    width:320px;
+    height:120px;
+    background-color: white;
+    margin:0 auto;
+}
+.jianjie li h4{
+    padding-left:30px;
+}
+.jianjie li div p{
+    text-align: center;
+}
