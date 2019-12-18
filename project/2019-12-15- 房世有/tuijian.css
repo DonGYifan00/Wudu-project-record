@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*登录*/
+.loginBody{
+  width: 100%;;
+  height: 300px;
+  margin: 0 auto;
+}
+.loginTb{
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.loginTb img{
+  margin-left: 10px;
+}
+.loginInput{
+  line-height: 30px;
+  width:350px;
+  margin: 0 auto;
+  margin-top:40px ;
+}
+.loginInput input{
+  width:280px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-left: 10px ;
+}
+.loginFs{
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.loginFs img{
+  margin-left: 45px;
+}
+.loginBut{
+  line-height: 30px;
+  width:250px;
+  height: 35px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.loginBut button{
+  width:250px;
+  height: 35px;
+  background:rgb(33, 161, 33);
+  color: white;
+  border: none; 
+  border-radius: 4px;
+  margin-left: 15px;
+}
+.loginBut a{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+/*阅读推荐*/
+.content{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+.fenlei{
+width: 98%;
+height: 100px;
+margin-top: 20px;
+margin: 0 auto;
+}
+.top1{
+width: 98%;
+height: 40px;
+margin: 0 auto;
+margin-top: 5px;
+}
+.top1 div{
+width: 24%;
+float: left;
+margin-left: 1%;
+margin-top: 10px;
+text-align: center;
+}
+.recommInput{
+top: 0;
+z-index: 999;
+position: fixed;
+width: 100%;
+height: 40px;
+margin: 0 auto;
+}
+.recommInput input{
+width: 74%;
+height: 35px;
+float: left;
+margin-left: 1%;
+border-radius: 5px;
+background:rgb(255, 255, 255,0.9);
+border: 1px solid black;
+}
+.recommInput button{
+width: 24%;
+height:35px;
+float: right;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 5px;
+background:rgb(126, 126, 194,0.9);
+color: white;
+}
+.content img{
+width: 110px;
+height: 140px;
+margin-left: 6px;
+margin-right: 10px;
+margin-top: 10px;
+float: left;
+}
+.content p{
+margin-right: 6px;
+font-size: 15px;
+}
+.content hr{
+width: 98%;
+color: aquamarine;
+}
+.tuijiantushu{
+width: 100%;
+height: 180px;
+}
+.fenlei1{
+width: 98%;
+height: 210px;
+margin: 0 auto;
+margin-top: 20px;
+}
+/* .fenlei1 div{
+width: 30%;
+height: 50px;
+margin-left: 2%;
+margin-top: 5px;
+float: left;
+border-radius: 8px;
+text-align: center;
+line-height: 50px;
+/* background: #87CEFA; */
+/* box-shadow:5px 2px 6px rgb(9, 109, 250);} */
+.fenlei1 p{
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 2px;
+color: gray;
+}
+.fenlei1 a:link{
+color: #000000;
+text-decoration: none;
+}
+.fenlei1 a:visited { 
+font-size: 12px; 
+color: #000000; 
+text-decoration: none; 
+} 
+.yangshi-bg{
+width: 30%;
+height: 50px;
+margin-left: 2%;
+margin-top: 5px;
+float: left;
+border-radius: 8px;
+line-height: 50px;
+background-image: url(../images/timg1.png);
+background-size: cover;
+position: relative;
+}
+.yangshi1-bg{
+width: 30%;
+height: 50px;
+margin-left: 2%;
+margin-top: 5px;
+float: left;
+border-radius: 8px;
+line-height: 50px;
+background-image: url(../images/timg2.png);
+background-size: cover;
+position: relative;
+}
+.yangshi2-bg{
+width: 30%;
+height: 50px;
+margin-left: 2%;
+margin-top: 5px;
+float: left;
+border-radius: 8px;
+line-height: 50px;
+background-image: url(../images/timg3.png);
+background-size: cover;
+position: relative;
+}
+.yangshi3-bg{
+width: 30%;
+height: 50px;
+margin-left: 2%;
+margin-top: 5px;
+float: left;
+border-radius: 8px;
+line-height: 50px;
+background-image: url(../images/timg4.png);
+background-size: cover;
+position: relative;
+}
+.yangshi4-bg{
+width: 30%;
+height: 50px;
+margin-left: 2%;
+margin-top: 5px;
+float: left;
+border-radius: 8px;
+line-height: 50px;
+background-image: url(../images/timg5.png);
+background-size: cover;
+position: relative;
+}
+.yangshi{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 50px;
+text-align: center;
+color: rgb(235, 223, 223);
+border-radius: 8px;
+background-color: rgba(46, 32, 46, 0.6);
+}
