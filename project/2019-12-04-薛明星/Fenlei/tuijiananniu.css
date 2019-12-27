@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.fanhui{
+width:15%;
+height:35px;
+float:left;
+margin-top: 5px;
+}
+.content{
+width: 100%;
+height: 100%;
+position: relative;
+top: 40px;
+margin: 0 auto;
+}
+.content img{
+width: 100px;
+height: 130px;
+margin-left: 6px;
+margin-right: 10px;
+float: left;
+}
+.fanhui img{
+width:60%;
+height:30px;
+line-height: 40px;
+margin-left: 15px;
+}
+.header1{
+position: fixed;
+width:100%;
+height: 40px;
+background: rgb(157, 157, 184);
+top: 0px;
+z-index: 999;
+}
+.header1 span{
+line-height: 40px;
+margin-left: 15px;
+}
+.tuijiantushu{
+width: 98%;
+height: 270px;
+margin: 0 auto;
+border-top: 1px dashed black;
+border-bottom:1px dashed black ;
+background-color: white;
+}
+.content p{
+float: left;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 15px;
+margin-top: 10px;
+text-indent:30px;
+overflow: hidden;
+}
+.tuijiantushu p{
+float: left;
+}
+.tuijiantushu h2{
+text-align: center;
+padding-top: 20px;
+}
+.tuijiantushu span{
+margin-left: 15px;
+font-size: 15px;
+}
