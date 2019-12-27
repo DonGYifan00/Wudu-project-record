@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.wuyongdiv1{
+    width: 100%;
+    height: 50px;
+    background-color: #09c4a7;
+}
+.wuyongimg1{
+    width: 10%;
+    height: 30px;
+    margin-top:10px;
+    margin-left:5%;
+    float: left;
+}
+.wuyongp1{
+    float: left;
+    margin-left:20%;
+    margin-top:15px;
+    font-size: 20px;
+}
+.wuyongdiv2{
+    width: 100%;
+    margin-top:20px;
+    background-color: white;
+}
+.wuyongdiv3{
+    height: 50px;
+    width:100%;
+    border:1px dashed gray;
+    background-color: white;
+    margin-top:10px;
+}
+.wuyongp2{
+    font-size: 15px;
+    float: left;
+    margin-top:15px;
+    margin-left:5%;
+}
+.wuyongimg2{
+    float:right;
+    width: 10%;
+    height: 30px;
+    margin-top:10px;
+    margin-right:5%;
+}
+.wuyongdiv4{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top:20px;
+}
+.wuyongp3{
+    color:black;
+    font-size: 40px;
+    margin-left:40%;
+}
+.wuyongp4{
+    margin-top:20px;
+    line-height: 40px;
+    font-size: 15px;
+    color:black;
+}
+.wuyongp5{
+    float: right;
+    margin-top:15px;
+    margin-right: 5%;
+}
+.wuyongp6{
+    margin-top:15px;
+    line-height: 40px;
+    font-size: 15px;
+    color:black;
+}
+.wuyongdiv5{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-top:20px;
+}
