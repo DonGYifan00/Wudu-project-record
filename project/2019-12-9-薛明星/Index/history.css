@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.historydiv1{
+    width: 100%;
+    height: 50px;
+}
+.historyimg1{
+    width: 5%;
+    height: 20px;
+    margin-left: 5%;
+    margin-top:15px;
+    float: left;
+}
+.historyp1{
+    float: left;
+    margin-left:5%;
+    margin-top:15px;
+    font-size: 15px;
+}
+.historydiv2{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+.historyimg2{
+    width: 30%;
+    height: 80px;
+    margin-top:10px;
+    margin-left:10%;
+    float: left;
+}
+.historyul1{
+    float: left;
+    margin-top:10px;
+    margin-left:10%;
+}
+.historyli1{
+    margin-top:15px;
+}
+.historyimg3{
+    position: absolute;
+    width: 10%;
+    height: 30px;
+    right:5px;
+    top:10px;
+}
+.historydiv3{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    margin-top:20px;
+    border:1px solid gray;
+    text-align: center;
+}
+.historyp2{
+    font-size: 15px;
+    margin-top:15px;
+}
+.historydiv4{
+    width: 100%;
+    height: 30px;
+    background-color:white;
+}
+.historyp3{
+    float: left;
+    margin-left:10%;
+    margin-top:10px;
+    font-size: 10px;
+}
+.historyimg4{
+    float: left;
+    width: 10%;
+    height: 10px;
+    margin-top:10px;
+    margin-left:30%;
+}
+.historydiv5{
+    width: 100%;
+    height: 50px;
+}

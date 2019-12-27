@@ -1,0 +1,77 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    list-style:none;
+}
+a{
+    list-style: none;
+}
+.mydiv1{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-color:lightblue;
+    text-align: center;
+}
+.mydiv2{
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    left:30%;
+    top: 30px;
+    border-radius: 80px;
+}
+.myimg1{
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+}
+.mydiv3{
+    width: 70%;
+    height:25px;
+    position: absolute;
+    top:120px;
+    left:15%;
+}
+.myp1{
+    font-size: 20px;
+}
+.mydiv4{
+    width: 10%;
+    height:20%;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.myimg2{
+    width:100%;
+    height: 100%;
+}
+.mydiv5{
+    width:100%;
+    margin-top: 20px;
+}
+.mydiv6{
+    width: 100%;
+    height: 50px;
+    border:1px dashed gray;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: white;
+}
+.myimg3{
+    width: 10%;
+    height: 30px;
+    margin-top:10px;
+    margin-left:10%;
+    float: left;
+}
+.myp2{
+    float: left;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left:10%;
+    color:gray;
+}

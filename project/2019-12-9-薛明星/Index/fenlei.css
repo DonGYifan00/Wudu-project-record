@@ -1,0 +1,83 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.fenleidiv1{
+    height:50px;
+    width:100%;
+}
+.fenleidiv2{
+    height: 45px;
+    width:70%;
+    border:1px solid gray;
+    float: left;
+}
+.fenleiinput1{
+    width: 100%;
+    height: 100%;
+}
+.fenleidiv3{
+    text-align: center;
+    
+    width: 25%;
+    height: 45px;
+    margin-left: 2%;
+    float: left;
+}
+.fenleip1{
+    font-size: 20px;
+    
+}
+.fenleidiv4{
+    width: 100%;
+    height: 150px;
+    margin-top:20px;
+}
+.fenleidiv5{
+    float: left;
+    width: 17%;
+    height: 30px;
+    background-color: white;    
+    margin-left:6px;
+    text-align: center;
+    border:1px dashed gray;
+    border-radius: 10px;
+}
+.fenleip2{
+    font-size: 15px;
+    margin-top:7px;
+}
+.fenleidiv6{
+    float: left;
+    width: 17%;
+    height: 30px;
+    background-color: white;    
+    margin-left:6px;
+    text-align: center;
+    margin-top: 15px;
+    border:1px dashed gray;
+    border-radius: 10px;
+}
+.fenleidiv7{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(156, 150, 150);
+    text-align: center;
+    float: left;
+}
+.fenleip3{
+    font-size: 15px;
+    margin-top:15px;
+    color:white;
+}
+.fenleidiv10{
+    width:100%;
+    height: 30px;
+    margin-top:600px;
+}

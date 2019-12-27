@@ -1,0 +1,102 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.shoucangdiv1{
+    width: 100%;
+    height: 50px;
+}
+.shoucangimg1{
+    width: 5%;
+    height: 20px;
+    margin-left: 5%;
+    margin-top:15px;
+    float: left;
+}
+.shoucangp1{
+    float: left;
+    margin-left:5%;
+    margin-top:15px;
+    font-size: 15px;
+}
+.shoucangdiv2{
+    width: 100%;
+    height: 150px;
+    border-radius: 30px;
+}
+.shoucangul1 li{
+    float: left;
+    margin-left:10%;
+    margin-top:40px;
+    font-size: 15px;
+}
+.shoucangdiv3{
+    width: 100;
+    height: 40px;
+    margin-top:10px;
+    background-color: white;
+}
+.shoucangp2{
+    font-size: 20px;
+    color:black;
+    float: left;
+    margin-left: 35%;
+    margin-top:10px;
+}
+.shoucangimg2{
+    float: left;
+    width: 10%;
+    height: 20px;
+    margin-top:14px;
+}
+.shoucangp3{
+    font-size: 20px;
+    color:black;
+    float: left;
+    margin-top:10px;
+    margin-left: 20%;
+}
+.shoucangdiv4{
+    width: 100%;
+    height: 100px;
+    
+    border:1px dashed gray;
+    position: relative;
+}
+.shoucangp4{ 
+    font-size: 17px;
+    margin-top:10px;
+    margin-left:10%;
+}
+.shoucangimg3{
+    float: left;
+    width: 30%;
+    height: 70px;
+    margin-top: 15px;
+    margin-left:10%;
+}
+.shoucangp5{
+    float: left;
+    margin-left:65%;
+    font-size: 12px;
+    margin-top:10px;    
+}
+.shoucangimg4{
+    width:20%;
+    height: 98px;
+    position: absolute;
+    left:2%;
+    /* top:40px; */
+    /* border-radius: 10px; */
+}
+.author{
+    margin-left:10%;
+    font-size: 15px;
+    margin-top:10px;
+}

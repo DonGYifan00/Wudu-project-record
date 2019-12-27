@@ -1,0 +1,19 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.apptabbottom{
+    width: 25%;
+    height: 30px;
+    background-color:gray;
+    text-align: center;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+}

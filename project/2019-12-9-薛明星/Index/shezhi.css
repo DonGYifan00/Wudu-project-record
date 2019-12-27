@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    padding:0px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    list-style: none;
+}
+.shezhidiv1{
+    background-color: #09c4a7;
+    height: 50px;
+    width:100%;
+    position: relative;
+}
+.shezhiimg1{
+    width:5%;
+    height: 20px;
+    position: absolute;
+    left:5%;
+    top:10px;
+}
+.shezhiimg2{
+    width: 30%;
+    height: 60px;
+    float: left;
+    margin-left: 25%;
+    margin-top:20px;
+    border-radius: 60px;
+}
+.shezhip1{
+    color:black;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.shezhidiv2{
+    width: 100%;
+    height: 350px;
+    background-color:white;
+    margin-top: 30px;
+}
+.shezhidiv3{
+    width:100%;
+    height: 50px;
+    border:1px dashed gray;
+}
+.shezhip2{
+    font-size: 15px;
+    margin-top:15px;
+    margin-left:5%;
+}
+.shezhidiv4{
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    margin-left:30%;
+    margin-top:30px;
+    background-color: white;
+}
+.shezhip3{
+    color:#09c4a7;
+    font-size: 25px;
+}

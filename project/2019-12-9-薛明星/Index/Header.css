@@ -1,0 +1,167 @@
+/* 在CSS文件中引入antd的css文件 */
+/* @import '~antd/dist/antd.css'; */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style:none;
+}
+.top{
+    height:40px;
+    width:100%;
+    text-align: center;
+}
+.top :first-child{
+    width:80%;
+    height:40px;
+    background-color: white;
+    border-bottom:gainsboro solid 1px;
+    float: left;
+
+}
+.top2{
+    height:30px;
+    width:100%;
+}
+.top2 ul{
+    padding-top:20px;
+}
+.top :last-child{
+    width:20%;
+    height:40px;
+    background-color: white;
+    border:gainsboro solid 1px;
+    float: left;
+}
+.top2 li{
+    float: left;
+    background-color: white;
+    height:80px;;
+    width:23.3%;
+    border-radius:50px;
+}
+.top2 p{
+    text-align: center;
+    font-size:13px;
+}
+.top3{
+    height:200px;
+    width:100%;
+    position: relative;
+    margin-top: 45px;
+    background-image: url(../images/24.jpg);
+}
+.top3 img{
+    height:200px;
+    width:100%;
+    border-radius:10px;
+}
+/* .top3 :first-child{
+    float: left;
+    width:80%;
+    height:200px;
+}
+.top3 :first-child img{
+    height:180px;
+    width:100%;
+}
+.top3 :last-child{
+    float: left;
+    width:20%;
+    height:100%;
+}
+.top3 :last-child li{
+    background-color: lightseagreen;
+    height:50%;
+    width:72px;
+    text-align: center;
+    line-height:100px;
+    border-radius:10px;
+    border:1px solid gainsboro;
+} */
+.ckb{
+    height:435px;
+    width:100%;
+}
+.bangdan{
+    margin:0 auto;
+    height:173px;
+    
+    margin-top: 15px;
+    width:100%;
+    background-image: url(../images/23.jpg);
+    /* border:1px solid gainsboro; */
+}
+.bangdan li{
+    padding-left:10px;
+    padding-right: 10px;
+    height:110px;
+    border-bottom: 1px solid gainsboro;
+    opacity: 1;
+}
+.bangdan img{
+    height:70px;
+    width: 70px;
+    float: left;
+    margin-top:15px
+}
+.bangdan li div{
+    float: left;
+    margin-top:15px;
+    margin-left:10px;
+}
+.remai{
+    margin:0 auto;
+    height:262px;
+    background-image: url(../images/23.jpg);
+    background-color: white;
+    width:100%;
+    /* border:1px solid gainsboro; */
+}
+.remai li{
+    padding-left:10px;
+    padding-right: 10px;
+    height:100px;
+    border-bottom: 1px solid gainsboro;
+}
+.remai img{
+    height:70px;
+    width: 70px;
+    float: left;
+    margin-top:15px
+}
+.remai li div{
+    float: left;
+    margin-top:15px;
+    margin-left:10px;
+}
+.tip{
+    
+    background-color:	#A9A9A9;
+}
+.tipt{
+    /* background-color: red; */
+    height:40px;
+    line-height: 30px;
+    text-align: center;
+}
+.tipchild{
+    margin:0 auto;
+    width:100%;
+    
+    
+    
+}
+.tipchild li{
+    padding-left:10px;
+    padding-right: 10px;
+    border-bottom:1px solid gainsboro;
+}
+.shanchupl{
+    border:none;
+    border-radius: 10px;
+    background-image: url(../images/shanchu.jpg);
+    background-size: cover;
+    position: relative;
+}
